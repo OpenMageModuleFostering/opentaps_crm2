@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+    <name>opentaps_CRM2</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Link your emails and discussions to your Magento sales orders</summary>
+    <description>opentaps CRM2 brings together all your company's communications and tasks as they happen, so your team could work smarter in a natural way.  By synchronizing directly with Gmail, it archives all the incoming and outgoing communications of your company with vendors and customers.  opentaps CRM2 then uses big data search technology to link your communications with your orders, so you and your team can have full visibility to your customer's interactions.  You can also discuss customer issues, create, assign, and manage tasks, and upload and manage files.  &#xD;
+&#xD;
+Features: &#xD;
+This Magento extension embeds opentaps CRM2 right into your order screen, so there's no need for working with a separate CRM system.  Everything happens as part of your Magento order admin.   On any Sales Order view in the magento backend, an opentaps CRM2 widget will show up at the bottom of the page.  This widget allows you to discuss the sales order with your team members and link all communications, including emails, with the order.&#xD;
+ &#xD;
+Settings &#xD;
+To configure the widget, sign up for an account at opentaps.com  Then login in as an admin user, go to System (from the top menu) &gt; Configuration then in the left menu under Sales &gt; Opentaps CRM2:&#xD;
+&#xD;
+1) setup the authToken and domain according to your subscription&#xD;
+&#xD;
+2) the other 2 options should be left blank&#xD;
+</description>
+    <notes>Fix for description, author and package name.</notes>
+    <authors><author><name>Open Source Strategies Inc</name><user>sichen1234</user><email>sichen@opensourcestrategies.com</email></author></authors>
+    <date>2014-12-18</date>
+    <time>20:46:56</time>
+    <contents><target name="magecommunity"><dir name="Oxidian"><dir name="OpenTaps"><dir name="Block"><file name="Info.php" hash="18d30bb9b90c009c724fe413a3f99155"/><dir name="Widget"><file name="Activity.php" hash="3fbe55bb09ba575318dccbc1df195672"/><file name="Activitycreate.php" hash="1ae13e788359d9c06a27764485d1d806"/><file name="Activitytask.php" hash="0e7674e2f48186fa47024d2ba57d4ac6"/></dir><file name="Widget.php" hash="b8e148159681ca361e24339849673786"/></dir><dir name="Helper"><file name="Data.php" hash="93b5337713e8d12bb946a00fbfebef67"/></dir><dir name="etc"><file name="config.xml" hash="1626967a7ce5c1a596463d9971f7f87b"/><file name="system.xml" hash="eec8c2ebe982278eca4caf3689caaa81"/></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><file name="opentaps_logo.png" hash="ca2615d1369f8fbedb80938097fe9455"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="oxidian_opentaps"><file name="info.phtml" hash="fd393fbf74df93177df102f12a93336c"/><file name="widget.phtml" hash="ae2ef28a3eee22bee0a0831e9ee9b7a4"/></dir></dir><dir name="layout"><file name="oxidian_opentaps.xml" hash="3f1966afe94db5da04d456be571fb1f3"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Oxidian_OpenTaps.xml" hash="1e5edb820ef04b56a61cc6f68f3f9bc0"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name/><channel>connect.magentocommerce.com/core</channel><min/><max/></package></required></dependencies>
+</package>
