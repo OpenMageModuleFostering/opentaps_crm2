@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/opentaps_CRM2",
+    "name": "OpenMageModuleFostering\/opentaps_CRM2",
     "type": "magento-module",
     "license": "Apache-License,-Version-2.0",
     "homepage": "",
     "description": "Link your emails and discussions to your Magento sales orders",
     "authors": [
-    {
-        "name": "Open Source Strategies Inc",
-        "email": "sichen@opensourcestrategies.com"
-    }
-],
+        {
+            "name": "Open Source Strategies Inc",
+            "email": "sichen@opensourcestrategies.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
